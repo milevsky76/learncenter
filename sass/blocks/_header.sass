@@ -1,12 +1,18 @@
 .main-header
-    height: 63px
     min-height: 63px
     background: linear-gradient(180deg, rgba(0,60,80,1) 0%, rgba(0,38,54,1) 100%)
     border-bottom: 1px solid #00CFED
+    position: relative    
     display: flex
     align-items: center
-    
-.main-navigation
+   
+.main-navigation    
+    position: absolute
+    top: 0    
+    right: 0
+    bottom: 0
+    left: 0
+    margin: auto
     display: flex
     justify-content: space-between
     align-items: center
@@ -40,10 +46,17 @@
     padding: 0
     list-style: none
     display: flex
+    width: 135px
     &__item
         margin-left: 13px
     &__link
-    &__img
+        display: block
         width: 32px
         height: 32px
         border-radius: 50%
+        &_fu
+            background-image: url(../img/Furl.png)
+        &_wp
+            background-image: url(../img/WhatsApp.png)
+        &_tw
+            background-image: url(../img/Twitter.png)

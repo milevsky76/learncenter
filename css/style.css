@@ -222,11 +222,11 @@ body {
 }
 
 .main-header {
-  height: 63px;
   min-height: 63px;
   background: -webkit-gradient(linear, left top, left bottom, from(#003c50), to(#002636));
   background: linear-gradient(180deg, #003c50 0%, #002636 100%);
   border-bottom: 1px solid #00CFED;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,6 +236,12 @@ body {
 }
 
 .main-navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,15 +293,29 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 135px;
 }
 
 .site-social__item {
   margin-left: 13px;
 }
 
-.site-social__img {
+.site-social__link {
+  display: block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
+}
+
+.site-social__link_fu {
+  background-image: url(../img/Furl.png);
+}
+
+.site-social__link_wp {
+  background-image: url(../img/WhatsApp.png);
+}
+
+.site-social__link_tw {
+  background-image: url(../img/Twitter.png);
 }
 /*# sourceMappingURL=style.css.map */
