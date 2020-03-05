@@ -319,6 +319,159 @@ body {
   background-image: url(../img/Twitter.png);
 }
 
+.services {
+  padding: 35px 0;
+  background: radial-gradient(circle, rgba(0, 234, 243, 0.85) 0%, rgba(0, 0, 0, 0) 50%), -webkit-gradient(linear, left top, left bottom, from(#00b5dc), to(#0073ba));
+  background: radial-gradient(circle, rgba(0, 234, 243, 0.85) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(180deg, #00b5dc 0%, #0073ba 100%);
+}
+
+.services__globe {
+  min-height: 512px;
+  background: url(../img/services/globe.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.services__logo {
+  margin-bottom: 25px;
+}
+
+.services__line {
+  margin-bottom: 15px;
+  width: 52%;
+  height: 1px;
+  background-color: #00D6EA;
+}
+
+.services__title {
+  margin: 0;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 44px;
+  color: #002738;
+}
+
+.services__subtitle {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  color: #002738;
+}
+
+.services__link {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 407px;
+  height: 82px;
+  margin-bottom: 6px;
+  padding-left: 150px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  vertical-align: center;
+  border: 3px solid #4DABD0;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 5px 0px #005A8C;
+          box-shadow: 0px 0px 5px 0px #005A8C;
+}
+
+.services__link:hover, .services__link:focus {
+  border: 3px solid #ffffff;
+}
+
+.services__link_orange::before, .services__link_green::before, .services__link_blue::before {
+  position: absolute;
+  content: '';
+  margin-right: 15px;
+  background-repeat: no-repeat;
+}
+
+.services__link_orange {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd900), color-stop(80%, #ff8200), to(#ff9200));
+  background: linear-gradient(180deg, #ffd900 0%, #ff8200 80%, #ff9200 100%);
+  text-shadow: 1px 1px 1px #FF4D00;
+}
+
+.services__link_orange::before {
+  top: -3px;
+  left: 40px;
+  width: 63px;
+  height: 84px;
+  background-image: url(../img/services/info.png);
+}
+
+.services__link_green {
+  background: -webkit-gradient(linear, left top, left bottom, from(#91f600), color-stop(80%, #31e700), to(#32e800));
+  background: linear-gradient(180deg, #91f600 0%, #31e700 80%, #32e800 100%);
+  text-shadow: 1px 1px 1px #07C300;
+}
+
+.services__link_green::before {
+  top: 3px;
+  left: 15px;
+  width: 96px;
+  height: 74px;
+  background-image: url(../img/services/folders.png);
+}
+
+.services__link_blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00f3fc), color-stop(80%, #00d1f1), to(#00beec));
+  background: linear-gradient(180deg, #00f3fc 0%, #00d1f1 80%, #00beec 100%);
+  text-shadow: 2px 2px 1px #00B5E9;
+}
+
+.services__link_blue::before {
+  top: -3px;
+  left: 40px;
+  width: 61px;
+  height: 84px;
+  background-image: url(../img/services/exclamation-mark.png);
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 285px;
+  color: #ffffff;
+}
+
+.logo::before {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 84px;
+  margin-right: 15px;
+  background-image: url(../img/services/logo.png);
+}
+
+.logo__name {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #0080BB;
+}
+
+.logo__name_blue {
+  color: #00354C;
+}
+
 .mission {
   padding-top: 35px;
   padding-bottom: 35px;
