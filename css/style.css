@@ -517,4 +517,19 @@ body {
   line-height: 27px;
   text-align: center;
 }
+
+.our-center__inner {
+  padding: 37px;
+  background-color: #ffffff;
+}
+
+.our-center__row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 37px;
+}
 /*# sourceMappingURL=style.css.map */
