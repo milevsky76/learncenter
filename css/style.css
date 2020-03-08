@@ -542,13 +542,16 @@ body {
   background-color: #ffffff;
 }
 
-.our-center__row1 {
+.our-center__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.our-center__row:not(:last-child) {
   margin-bottom: 37px;
 }
 
@@ -561,7 +564,7 @@ body {
   margin-bottom: 15px;
   font-family: 'Expletus Sans', sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   color: #000000;
   text-transform: uppercase;
 }
@@ -608,7 +611,7 @@ body {
   margin-bottom: 15px;
   font-family: 'Expletus Sans', sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   color: #000000;
   text-transform: uppercase;
 }
