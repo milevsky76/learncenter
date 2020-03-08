@@ -666,4 +666,53 @@ body {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+.education {
+  width: 565px;
+}
+
+.education__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.education__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.education__wrap-left {
+  width: 340px;
+}
+
+.education__img {
+  margin-right: 25px;
+  width: 194px;
+  height: 150px;
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.education__name {
+  color: #000000;
+}
+
+.education__text {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.education__link {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
