@@ -715,4 +715,112 @@ body {
 .education__link {
   display: inline-block;
 }
+
+.lnews {
+  width: 300px;
+}
+
+.lnews__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.lnews__list {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.lnews__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.lnews__date {
+  margin-right: 15px;
+}
+
+.lnews__text {
+  margin: 0;
+  padding: 0;
+}
+
+.lnews__time {
+  display: block;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.lnews__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #4b4b4b;
+}
+
+.lnews__links:hover .lnews__time, .lnews__links:focus .lnews__time {
+  text-decoration: none;
+}
+
+.lnews__link {
+  display: inline-block;
+}
+
+.date {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 60px;
+  border: 3px solid #ffffff;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.date__top {
+  position: relative;
+  height: 19px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb900), to(#ff9700));
+  background: linear-gradient(180deg, #ffb900 0%, #ff9700 100%);
+  border-bottom: 1px solid #FF5900;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.date__top::before {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.date__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 39px;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 400;
+  font-size: 27.5px;
+  color: #4b4b4b;
+  line-height: 39px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(white));
+  background: linear-gradient(180deg, #f0f0f0 0%, white 100%);
+  border-bottom: 1px solid #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
