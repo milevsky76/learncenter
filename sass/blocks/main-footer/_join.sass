@@ -1,0 +1,32 @@
+.join
+    width: 100px
+    &__title
+        margin: 0
+        margin-bottom: 15px
+        padding: 0
+        font-size: 27px
+        +expB
+        color: #000000        
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        position: relative
+        padding-left: 10px
+        &::before
+            content: ''
+            position: absolute
+            top: 5px
+            left: 0            
+            width: 4px
+            height: 7px
+            background-image: url(../img/marker.png)
+            background-repeat: no-repeat
+            background-position: 0 0            
+        &:not(:last-child)            
+            margin-bottom: 10px
+    &__link
+        color: $text-color
+        &:hover, &:focus
+            text-decoration: underline
