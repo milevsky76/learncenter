@@ -10,6 +10,14 @@
         margin-right: 45px
     &__letter
         margin-left: auto
+    &__bottom
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        margin-top: 40px
+        margin-bottom: 20px
+    &__call
+    &__links
 
 @import 'main-footer/_address'
 
@@ -18,3 +26,33 @@
 @import 'main-footer/_why'
 
 @import 'main-footer/_letter'
+
+.call    
+    margin: 0
+    padding: 0
+    width: 417px
+    font-size: 28px
+    +expB
+    color: #000000
+    &__tel
+        +expR
+        color: #0054a6
+        &:hover, &:focus
+            text-decoration: underline
+
+.links
+    margin: 0
+    padding: 0
+    width: 300px    
+    &__template
+        +expR
+        color: #0054a6
+        text-decoration: underline
+        &:hover, &:focus
+            text-decoration: none
+    &__models
+        +expR
+        color: #0054a6
+        text-decoration: underline
+        &:hover, &:focus
+            text-decoration: none
